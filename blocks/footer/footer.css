@@ -17,4 +17,26 @@ footer .footer p {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+
+  footer .footer div div div {
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    & h3 {
+      font-size: 16px;
+    }
+
+    & ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 0;
+      
+      & li a {
+        color: var(--dim-color);
+      }
+    }
+  }
 }
