@@ -112,6 +112,22 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Value",
+            "value": "value"
+          },
+          {
+            "name": "Reasons",
+            "value": "reasons"
+          },
+          {
+            "name": "top-offers",
+            "value": "Top offers"
+          },
+          {
+            "name": "Featured products",
+            "value": "featured-products"
           }
         ]
       }
