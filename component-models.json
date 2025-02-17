@@ -174,29 +174,6 @@
     ]
   },
   {
-    "id": "column",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Background Color",
-        "description": "The marquee background color",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Pink",
-            "value": "bg-red"
-          },
-          {
-            "name": "Blue",
-            "value": "bg-blue"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "fragment",
     "fields": [
       {
