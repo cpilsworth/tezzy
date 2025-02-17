@@ -112,22 +112,6 @@
           {
             "name": "Highlight",
             "value": "highlight"
-          },
-          {
-            "name": "Value",
-            "value": "value"
-          },
-          {
-            "name": "Reasons",
-            "value": "reasons"
-          },
-          {
-            "name": "top-offers",
-            "value": "Top offers"
-          },
-          {
-            "name": "Featured products",
-            "value": "featured-products"
           }
         ]
       }
@@ -168,6 +152,47 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Background Color",
+        "description": "The marquee background color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Pink",
+            "value": "bg-red"
+          },
+          {
+            "name": "Blue",
+            "value": "bg-blue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "column",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Background Color",
+        "description": "The marquee background color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Pink",
+            "value": "bg-red"
+          },
+          {
+            "name": "Blue",
+            "value": "bg-blue"
+          }
+        ]
       }
     ]
   },
