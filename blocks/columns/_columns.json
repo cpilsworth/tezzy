@@ -33,7 +33,12 @@
           "name": "rows",
           "value": "",
           "label": "Rows"
-        },
+        }        
+      ]
+    },
+    {
+      "id": "column",
+      "fields": [
         {
           "component": "select",
           "name": "classes",
@@ -52,7 +57,6 @@
             }
           ]
         }
-        
       ]
     }
   ],
